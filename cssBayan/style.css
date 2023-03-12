@@ -23,36 +23,6 @@ body{
     box-shadow: 0.4em 0.2em 0.4em #e7e7a2;
 }
 
-.bayan__container:hover > .mem__item >  input:checked + .text > .ico,
-.bayan__container:hover > .mem__item > input:checked + .text{
-    opacity: 1;
-    color:white;
-}
-
-.bayan__container:hover > .mem__item > input + .text > .ico{
-    opacity: 1;
-    color:white;
-}
-
-.bayan__container:hover > .mem__item > input + .text > .ico > .ico__item{
-    background-color: white;
-}
-
-.bayan__container:hover > .mem__item > input:checked + .text > .ico > .ico__item{
-    background-color: white;
-}
-
-.bayan__container:active > .mem__item > input:checked + .text > .ico > .ico__item{
-    background-color: #ffd700;
-}
-
-.bayan__container:hover > .mem__item > input + .text {
-    color: white;
-}
-
-.bayan__container:active > .mem__item > input:checked + .text > span{
-    color: #ffd700;
-}
 
 .mem__item{
     margin-bottom: 1rem;
@@ -72,7 +42,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 0;    
+    height: 0;  
     transition: all 0.5s;
     overflow: hidden; 
     font-size: 2rem;
@@ -92,8 +62,8 @@ body{
 }
 
 img{
-    width: 30rem;
-    height: 20rem;
+    width: 20rem;
+    height: 13rem;
     box-shadow: 0em 6em 4em 3.4em #e7e7a2;
     padding: 0.01em;
 }
@@ -154,6 +124,40 @@ input:checked + .text + .mem-block {
     transform: translateY(1rem) rotate(135deg);
 }
 
+.bayan__container:focus > .mem__item >  input:checked + .text > .ico,
+.bayan__container:focus > .mem__item > input:checked + .text{
+    opacity: 1;
+    color:white;
+}
+
+.bayan__container:focus > .mem__item > input + .text > .ico{
+    opacity: 1;
+    color:white;
+}
+
+.bayan__container:focus > .mem__item > input + .text > .ico > .ico__item{
+    background-color: white;
+}
+
+.bayan__container:focus > .mem__item > input:checked + .text > .ico > .ico__item{
+    background-color: white;
+}
+
+.bayan__container:focus > .mem__item > input:checked + .text > .ico > .ico__item{
+    background-color: #ffd700;
+}
+
+.bayan__container:focus > .mem__item > input + .text {
+    color: white;
+}
+
+.bayan__container:focus > .mem__item > input:checked + .text > span{
+    color: #ffd700;
+}
+
+
+
+
 @media only screen and (min-width: 320px) {
     html{
         font-size: 0.6em;
@@ -162,9 +166,14 @@ input:checked + .text + .mem-block {
     .wrapper{
         max-width: 85vw;
     }
+
     img{
-        width: 20rem;
+        width: 25rem;
         height: 15rem;
+    }
+
+    .mem__item > input:checked + .text + .mem-block{
+        height: 16rem;
     }
 }
 
@@ -176,14 +185,51 @@ input:checked + .text + .mem-block {
     .wrapper{
         max-width: 80vw;
     }
+
     img{
         width: 25rem;
+        height: 20rem;
+    }
+
+    .mem__item > input:checked + .text + .mem-block{
         height: 20rem;
     }
 }
 
 
 @media only screen and (min-width: 1920px) {
+    .bayan__container:hover > .mem__item >  input:checked + .text > .ico,
+    .bayan__container:hover > .mem__item > input:checked + .text{
+        opacity: 1;
+        color:white;
+    }
+
+    .bayan__container:hover > .mem__item > input + .text > .ico{
+        opacity: 1;
+        color:white;
+    }
+
+    .bayan__container:hover > .mem__item > input + .text > .ico > .ico__item{
+        background-color: white;
+    }
+
+    .bayan__container:hover > .mem__item > input:checked + .text > .ico > .ico__item{
+        background-color: white;
+    }
+
+    .bayan__container:active > .mem__item > input:checked + .text > .ico > .ico__item{
+        background-color: #ffd700;
+    }
+
+    .bayan__container:hover > .mem__item > input + .text {
+        color: white;
+    }
+
+    .bayan__container:active > .mem__item > input:checked + .text > span{
+        color: #ffd700;
+    }
+
+
     html{
         font-size: 1.3em;
     }
@@ -194,8 +240,12 @@ input:checked + .text + .mem-block {
     }
     
     img{
-        width: 20rem;
-        height: 13rem;
+        width: 25rem;
+        height: 20rem;
+    }
+
+    .mem__item > input:checked + .text + .mem-block{
+        height: 20rem;
     }
 
     .text{

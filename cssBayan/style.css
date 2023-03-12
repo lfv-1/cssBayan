@@ -116,7 +116,7 @@ input:checked + .text {
 }
 
 input:checked + .text + .mem-block {
-    height: 20rem;
+    height: 14rem;
     color: #000;
     transition: all 1s;
 }
@@ -185,14 +185,32 @@ input:checked + .text + .mem-block {
 
 @media only screen and (min-width: 1920px) {
     html{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .wrapper{
         max-width: 75vw;
+        margin-top: 1.5em;
     }
     
     img{
-        width: 30rem;
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .text{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        margin:0;
+    }
+
+    .underline{
+        margin-bottom: 1rem;
+    }
+
+    .mem__item{
+        margin-bottom: 0.5rem;
     }
 }

@@ -154,3 +154,45 @@ input:checked + .text + .mem-block {
     transform: translateY(1rem) rotate(135deg);
 }
 
+@media only screen and (min-width: 320px) {
+    html{
+        font-size: 0.6em;
+    }
+
+    .wrapper{
+        max-width: 85vw;
+    }
+    img{
+        width: 20rem;
+        height: 15rem;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    html{
+        font-size: 1em;
+    }
+
+    .wrapper{
+        max-width: 80vw;
+    }
+    img{
+        width: 25rem;
+        height: 20rem;
+    }
+}
+
+
+@media only screen and (min-width: 1920px) {
+    html{
+        font-size: 1.5em;
+    }
+
+    .wrapper{
+        max-width: 75vw;
+    }
+    
+    img{
+        width: 30rem;
+    }
+}

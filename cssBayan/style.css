@@ -94,7 +94,7 @@ body{
 img{
     width: 30rem;
     height: 20rem;
-    box-shadow: .4em 0 .4em #e7e7a2;
+    box-shadow: 0em 6em 4em 3.4em #e7e7a2;
     padding: 0.01em;
 }
 

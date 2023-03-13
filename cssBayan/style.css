@@ -124,40 +124,6 @@ input:checked + .text + .mem-block {
     transform: translateY(1rem) rotate(135deg);
 }
 
-.bayan__container:focus > .mem__item >  input:checked + .text > .ico,
-.bayan__container:focus > .mem__item > input:checked + .text{
-    opacity: 1;
-    color:white;
-}
-
-.bayan__container:focus > .mem__item > input + .text > .ico{
-    opacity: 1;
-    color:white;
-}
-
-.bayan__container:focus > .mem__item > input + .text > .ico > .ico__item{
-    background-color: white;
-}
-
-.bayan__container:focus > .mem__item > input:checked + .text > .ico > .ico__item{
-    background-color: white;
-}
-
-.bayan__container:focus > .mem__item > input:checked + .text > .ico > .ico__item{
-    background-color: #ffd700;
-}
-
-.bayan__container:focus > .mem__item > input + .text {
-    color: white;
-}
-
-.bayan__container:focus > .mem__item > input:checked + .text > span{
-    color: #ffd700;
-}
-
-
-
-
 @media only screen and (min-width: 320px) {
     html{
         font-size: 0.6em;
@@ -198,38 +164,6 @@ input:checked + .text + .mem-block {
 
 
 @media only screen and (min-width: 1920px) {
-    .bayan__container:hover > .mem__item >  input:checked + .text > .ico,
-    .bayan__container:hover > .mem__item > input:checked + .text{
-        opacity: 1;
-        color:white;
-    }
-
-    .bayan__container:hover > .mem__item > input + .text > .ico{
-        opacity: 1;
-        color:white;
-    }
-
-    .bayan__container:hover > .mem__item > input + .text > .ico > .ico__item{
-        background-color: white;
-    }
-
-    .bayan__container:hover > .mem__item > input:checked + .text > .ico > .ico__item{
-        background-color: white;
-    }
-
-    .bayan__container:active > .mem__item > input:checked + .text > .ico > .ico__item{
-        background-color: #ffd700;
-    }
-
-    .bayan__container:hover > .mem__item > input + .text {
-        color: white;
-    }
-
-    .bayan__container:active > .mem__item > input:checked + .text > span{
-        color: #ffd700;
-    }
-
-
     html{
         font-size: 1.3em;
     }
@@ -262,5 +196,40 @@ input:checked + .text + .mem-block {
 
     .mem__item{
         margin-bottom: 0.5rem;
+    }
+}
+
+
+
+@media (hover: hover) {
+    .bayan__container:hover > .mem__item >  input:checked + .text > .ico,
+    .bayan__container:hover > .mem__item > input:checked + .text{
+        opacity: 1;
+        color:white;
+    }
+
+    .bayan__container:hover > .mem__item > input + .text > .ico{
+        opacity: 1;
+        color:white;
+    }
+
+    .bayan__container:hover > .mem__item > input + .text > .ico > .ico__item{
+        background-color: white;
+    }
+
+    .bayan__container:hover > .mem__item > input:checked + .text > .ico > .ico__item{
+        background-color: white;
+    }
+
+    .bayan__container:active > .mem__item > input:checked + .text > .ico > .ico__item{
+        background-color: #ffd700;
+    }
+
+    .bayan__container:hover > .mem__item > input + .text {
+        color: white;
+    }
+
+    .bayan__container:active > .mem__item > input:checked + .text > span{
+        color: #ffd700;
     }
 }
